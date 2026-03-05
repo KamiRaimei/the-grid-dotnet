@@ -1,0 +1,250 @@
+# .gitignore for Grid Simulation .NET Project
+
+## .NET Core / .NET 8.0
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.exe.config
+*.dll.config
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.snk
+*.csproj.user
+appsettings.Development.json
+
+## Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+## Visual Studio
+.vs/
+*.sln.docstates
+*.userprefs
+*.vsix
+*.vspx
+*.vsp
+*.psess
+*.vspf
+*.suo
+*.ntfy
+*.ncrunch*
+*._sln.cache
+*.sln.ide/
+*.swp
+*~
+
+## Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## Rider IDE
+.idea/
+*.sln.iml
+
+## Project specific
+*.pidb
+*.svclog
+*.scc
+
+## NuGet Packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## Testing
+TestResults/
+*.trx
+*.tmp
+*.cache
+*.nunit
+*.coverage
+*.coveragexml
+*.testresult
+*.testlog
+
+## Database files
+*.mdf
+*.ldf
+*.sdf
+*.mdb
+*.bak
+
+## Logs
+logs/
+*.log
+*.txt.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Backup & temp files
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+*.lock
+
+## Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+## macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+## Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+## Environment & secrets
+appsettings.Secrets.json
+secrets.json
+.env
+.env.local
+.env.*.local
+
+## Output files
+*.nupkg
+*.7z
+*.rar
+*.zip
+*.gz
+*.tar
+
+## Personality files (if you want to exclude them from git)
+mcp_personality.json
+mcp_learned_patterns.json
+
+## If you want to keep personality files but exclude large logs
+*.log
+logs/
+
+## Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+## Publish output
+publish/
+PublishScripts/
+
+## Benchmark results
+BenchmarkDotNet.Artifacts/
+
+## JetBrains
+.idea/
+*.DotSettings.user
+
+## Mono
+.mono/
+_ReSharper.*/
+
+## Paket dependency manager
+.paket/
+paket-files/
+
+## FAKE - F# Make
+.fake/
+
+## Python tools (if any)
+__pycache__/
+*.pyc
+
+## Node (if used for any tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+## Docker
+.dockerignore
+docker-compose.override.yml
+
+## Project-specific exclusions
+# Uncomment these if you want to exclude the simulation save files
+*.simstate
+grid_save_*.json
+
+## Optional: Exclude large data files
+data/
+temp/
+cache/
+
+## Custom rules for this project
+# Exclude compiled output but keep source
+!*.cs
+!*.xaml
+!*.xml
+!*.json
+!*.config
+
+## Runtime folders
+App_Data/
+App_Logs/
+Uploads/
+Downloads/
+
+## Test coverage
+TestResults/
+coverage.json
+lcov.info
+
+## SonarQube
+.sonarqube/

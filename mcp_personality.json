@@ -1,0 +1,14 @@
+{
+  "aggression": 0.5,
+  "cooperation": 0.7,
+  "efficiency_focus": 0.8000000000000002,
+  "risk_taking": 0.3,
+  "learning_curiosity": 0.6018000000000001,
+  "stability_preference": 0.7,
+  "adaptation_speed": 0.5,
+  "calculation_priority": 0.8000000000000002,
+  "bug_tolerance": 0.4,
+  "user_tolerance": 0.6,
+  "innovation_bias": 0.5,
+  "conservatism": 0.3
+}
