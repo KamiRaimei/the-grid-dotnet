@@ -208,11 +208,6 @@ paket-files/
 __pycache__/
 *.pyc
 
-## Node (if used for any tooling)
-node_modules/
-npm-debug.log
-yarn-error.log
-
 ## Docker
 .dockerignore
 docker-compose.override.yml
@@ -221,11 +216,6 @@ docker-compose.override.yml
 # Uncomment these if you want to exclude the simulation save files
 *.simstate
 grid_save_*.json
-
-## Optional: Exclude large data files
-data/
-temp/
-cache/
 
 ## Custom rules for this project
 # Exclude compiled output but keep source

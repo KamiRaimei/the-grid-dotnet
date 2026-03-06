@@ -1,0 +1,36 @@
+# .gitattributes
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# C# files
+*.cs text diff=csharp
+
+# Visual Studio solution files
+*.sln text eol=crlf
+*.csproj text eol=crlf
+
+# Config files
+*.json text
+*.xml text
+*.config text
+
+# Images
+*.png binary
+*.jpg binary
+*.ico binary
+
+# Binary files
+*.dll binary
+*.exe binary
+*.pdb binary
+
+# Documentation
+*.md text
+*.txt text
+
+# Ensure bat files have correct line endings
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell scripts
+*.sh text eol=lf
